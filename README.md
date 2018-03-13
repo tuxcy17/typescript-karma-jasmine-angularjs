@@ -1,2 +1,6 @@
-# typescript-karma-jasmine-angularjs
-Starter for angularjs / Karma / Jasmine all using typescript
+# What ?
+Starter for angularjs / Karma / Jasmine all using Typescript and automatic reloading
+
+# How ?
+npm install
+npm run test
