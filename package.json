@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Starter app using angularjs / karma / jasmine, Typescript flavour",
   "scripts": {
-    "test": "tsc --watch & karma start "
+    "test": "karma start "
   },
   "repository": {
     "type": "git",
