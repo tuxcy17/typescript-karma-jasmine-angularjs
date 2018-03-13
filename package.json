@@ -1,0 +1,43 @@
+{
+  "name": "typescript-karma-jasmine-angularjs",
+  "version": "1.0.0",
+  "description": "Starter app using angularjs / karma / jasmine, Typescript flavour",
+  "scripts": {
+    "test": "tsc --watch & karma start "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxcy17/typescript-karma-jasmine-angularjs.git"
+  },
+  "keywords": [
+    "angularjs",
+    "karma",
+    "jasmine",
+    "typescript"
+  ],
+  "author": "tuxcy (Cyril RICHARD)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuxcy17/typescript-karma-jasmine-angularjs/issues"
+  },
+  "homepage": "https://github.com/tuxcy17/typescript-karma-jasmine-angularjs#readme",
+  "devDependencies": {
+    "@types/jasmine": "2.5.53",
+    "concurrently": "^3.5.1",
+    "jasmine-core": "2.6.4",
+    "karma": "1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-requirejs": "1.1.0",
+    "karma-spec-reporter": "0.0.32",
+    "karma-typescript": "^3.0.12",
+    "requirejs": "2.3.3",
+    "typescript": "~2.4.1"
+  },
+  "dependencies": {
+    "@types/angular": "^1.6.43",
+    "@types/angular-mocks": "^1.5.11",
+    "angular": "^1.6.9",
+    "angular-mocks": "^1.6.9"
+  }
+}
